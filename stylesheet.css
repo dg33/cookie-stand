@@ -1,0 +1,62 @@
+h1 {
+  text-align:center;
+  color:#ffffcc;
+}
+header {
+  border-style: solid;
+  background-color:#000099;
+}
+body {
+  background-color:#ff9999;
+  border-color: green;
+}
+img {
+  width: 100%;
+}
+#pike li {
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+
+}
+#pike{
+  margin-bottom: 10px;
+  font-family: Arial;
+
+}
+#seatac li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#seatac{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+#southcenter li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#southcenter{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+#bellevue li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#bellevue{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+#alki li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#alki{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
