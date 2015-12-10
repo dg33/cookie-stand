@@ -5,6 +5,7 @@ h1 {
 header {
   border-style: solid;
   background-color:#000099;
+  font-family: 'Indie Flower', cursive;
 }
 body {
   background-color:#ff9999;
@@ -59,4 +60,8 @@ img {
 #alki{
   margin-bottom: 10px;
   font-family: Arial;
+}
+td, table {
+  border:2px solid black;
+
 }
