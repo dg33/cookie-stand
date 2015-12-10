@@ -198,7 +198,7 @@
         //  store.min =
         //  store.max =
         //  store.avg =
-var hours = ['10am', '11am', '12am', '1pm', '2pm', '3pm', '4pm', '5pm'];
+var hours = ['10am', '11am', '12am', '1pm', '2pm', '3pm', '4pm', '5pm','6pm'];
 
 function CookieStand (locName, min, max, avg){
   this.locName = locName;
@@ -226,30 +226,26 @@ CookieStand.prototype.generateHourly = function(){
 
 CookieStand.prototype.render = function(){
   this.generateHourly();
-  var hoursElem = document.getElementById("hours");
-  var tblElem = document.createElement("table");
-  var tdElem = document.createElement("td");
+  var hoursElem = document.getElementById('hours');
+  var tdElem = document.createElement('td');
   var trElem = document.createElement('tr');
   tdElem.appendChild(document.createTextNode(this.locName));
   console.log("in render function");
   // tdElem.textContent = this.locName;
   trElem.appendChild(tdElem);
-  tblElem.appendChild(trElem);
 
   tdElem.className = "firstRow";
 
   var totElem = document.createElement("td");
   totElem.textContent = Math.round(this.dailyCookies);
   trElem.appendChild(totElem);
-  tblElem.appendChild(trElem);
-  hoursElem.appendChild(tblElem);
+  hoursElem.appendChild(trElem);
 
   for (var i = 0; i < this.hourlyCookies.length; i++) {
     var tdElem = document.createElement("td");
     tdElem.textContent = Math.round(this.hourlyCookies [i]);
     trElem.appendChild(tdElem);
-    tblElem.appendChild(trElem);
-    hoursElem.appendChild(tblElem);
+    hoursElem.appendChild(trElem);
   }
 }
 var pike = new CookieStand ("pike", 17, 88, 5.2);
@@ -262,12 +258,10 @@ var alki = new CookieStand ("alki", 3, 24, 2.6);
 
 function firstLine(){
   var hoursElem = document.getElementById("hours");
-  var tblElem = document.createElement("table");
   var thElem = document.createElement("th");
   var trElem = document.createElement("tr");
   thElem.textContent = "Locations";
   trElem.appendChild(thElem);
-  tblElem.appendChild(trElem);
 
   thElem.className = "firstRow"
 
@@ -275,8 +269,7 @@ function firstLine(){
     var thElem = document.createElement("th");
     thElem.textContent= hours[i];
     trElem.appendChild(thElem);
-    tblElem.appendChild(trElem);
-    hoursElem.appendChild(tblElem);
+    hoursElem.appendChild(trElem);
 
   }
 }
