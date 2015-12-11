@@ -2,19 +2,27 @@ h1 {
   text-align:center;
   color:#ffffcc;
 }
+
+h2 {
+  text-align: left;
+}
+h3 {
+  text-align: center;
+  color:#ffffcc;
+}
 header {
   border-style: solid;
   background-color:#000099;
   font-family: 'Indie Flower', cursive;
 }
 body {
-  background-color:#ff9999;
+  background-color:#ccffcc;
   border-color: green;
 }
 img {
-  width: 100%;
+  width: 50%;
 }
-#pike li {
+/*#pike li {
   list-style-type: none;
   text-indent: 30px;
   font-family: cursive;
@@ -64,4 +72,4 @@ img {
 td, table {
   border:2px solid black;
 
-}
+}*/
