@@ -15,12 +15,48 @@ header {
   background-color:#000099;
   font-family: 'Indie Flower', cursive;
 }
+header img {
+  width: 100%;
+}
 body {
   background-color:#ccffcc;
   border-color: green;
 }
 img {
-  width: 50%;
+  width:50%;
+}
+
+.fancyfish {
+  display:inline-block;
+  width: 35;
+}
+.loremp {
+  display: inline-block;
+  width: 35%;
+  float: right;
+
+}
+.famfunpats {
+  text-align: center;
+  font-weight: bold;
+}
+.happyfam {
+  display: block;
+  margin: 0 auto;
+}
+.merchp {
+  font-weight: bold;
+  display:inline-block;
+}
+.patsmerch {
+  margin: .5em;
+  display: inline-block;
+  width: 35%;
+  float: right;
+}
+.festlink {
+  flex-wrap: nowrap;
+  display: block;
 }
 /*#pike li {
   list-style-type: none;
