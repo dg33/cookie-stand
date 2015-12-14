@@ -10,7 +10,7 @@ h3 {
   text-align: center;
   color:#ffffcc;
 }
-header {
+header:hover {
   border-style: solid;
   background-color:#000099;
   font-family: 'Indie Flower', cursive;
@@ -52,11 +52,12 @@ img {
   margin: .5em;
   display: inline-block;
   width: 35%;
-  float: right;
+  margin-left: 14em;
+  padding-top: 2em;
 }
 .festlink {
-  flex-wrap: nowrap;
-  display: block;
+  display: inline-block;
+  
 }
 /*#pike li {
   list-style-type: none;
