@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='https://www.google.com/fonts#UsePlace:use/Collection:Indie+Flower'>
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+    <meta charset="utf-8">
+    <title>The Salmon Cookie Shop.</title>
+  </head>
+  <body>
+    <header>
+    <h1>Welcome to the Salmon Cookie Shop.</h1>
+    <img src='salmon.png'></img>
+    </header>
+    <p>We have a number of stores to visit around the Seattle area find the one nearest you on the list below.</p>
+
+    <form id='formData'>
+      <fieldset>
+        <legend>Location</legend>
+        <label for='userLocation'></label>
+
+        <input name="userLocation" type="text" placeholder="Location">
+
+        <lable for ="Minimum">Minimum # of Custmers per Hour:</label>
+
+        <input name="minCustomersPerHr" type="number" placeholder="Minimum">
+
+        <label for ="Maximum">Maximum # of Customers per Hour:</label>
+
+        <input name="maxCustomersPerHr" type="number" placeHolder="Maximum">
+
+        <label for ="Average">Average # of Cookies per Customer:</label>
+
+        <input name="avgCookiesPerCustomer" type="number" placeholder="Average">
+
+        <button name="Submit">Submit</button>
+
+      </fieldset>
+    </form>
+
+    <h2>Locations:</h2>
+
+      <ul>
+        <li id='pike'>Pike Place Market</li>
+
+          <li id='seatac'>SeaTac Airport</li>
+
+        <li id='southcenter'>Southcenter Mall</li>
+
+          <li id='bellevue'>Bellevue Mall</li>
+
+        <li id='alki'>Alki</li>
+      </ul>
+      <table id='hours'></table>
+    <script src='cookiestand.js'></script>
+  </body>
+</html>

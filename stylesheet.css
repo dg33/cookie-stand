@@ -1,0 +1,111 @@
+h1 {
+  text-align:center;
+  color:#ffffcc;
+}
+
+h2 {
+  text-align: left;
+}
+h3 {
+  text-align: center;
+  color:#ffffcc;
+}
+header {
+  border-style: solid;
+  background-color:#000099;
+  font-family: 'Indie Flower', cursive;
+}
+header img {
+  width: 100%;
+}
+body {
+  background-color:#ccffcc;
+  border-color: green;
+}
+img {
+  width:50%;
+}
+
+.fancyfish {
+  display:inline-block;
+  width: 35;
+}
+.loremp {
+  display: inline-block;
+  width: 35%;
+  float: right;
+
+}
+.famfunpats {
+  text-align: center;
+  font-weight: bold;
+}
+.happyfam {
+  display: block;
+  margin: 0 auto;
+}
+.merchp {
+  font-weight: bold;
+  display:inline-block;
+}
+.patsmerch {
+  margin: .5em;
+  display: inline-block;
+  width: 35%;
+  float: right;
+}
+.festlink {
+  flex-wrap: nowrap;
+  display: block;
+}
+/*#pike li {
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+
+}
+#pike{
+  margin-bottom: 10px;
+  font-family: Arial;
+
+}
+#seatac li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#seatac{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+#southcenter li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#southcenter{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+#bellevue li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#bellevue{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+#alki li{
+  list-style-type: none;
+  text-indent: 30px;
+  font-family: cursive;
+}
+#alki{
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+td, table {
+  border:2px solid black;
+
+}*/
