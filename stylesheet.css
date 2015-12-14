@@ -10,7 +10,7 @@ h3 {
   text-align: center;
   color:#ffffcc;
 }
-header {
+header:hover {
   border-style: solid;
   background-color:#000099;
   font-family: 'Indie Flower', cursive;
@@ -28,7 +28,7 @@ img {
 
 .fancyfish {
   display:inline-block;
-  width: 35;
+  width: 35%;
 }
 .loremp {
   display: inline-block;
@@ -51,12 +51,13 @@ img {
 .patsmerch {
   margin: .5em;
   display: inline-block;
-  width: 35%;
-  float: right;
+  width: 25%;
+  margin-left: 40em;
+  padding-top: 2em;
 }
 .festlink {
-  flex-wrap: nowrap;
-  display: block;
+  display: inline-block;
+
 }
 /*#pike li {
   list-style-type: none;
